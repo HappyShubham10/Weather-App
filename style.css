@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:sans-serif;
+}
+
+html,body
+{
+    height: 100%;
+    width: 100%;
+}
+
+#main
+{
+    height: 100%;
+    width: 100%;
+    background-color:#83A2FF;
+    background-image: url(https://cdn.pixabay.com/photo/2016/08/24/07/56/sunset-1616384_1280.jpg);
+    background-size: cover;
+    background-position: top;
+}
+
+#inputandsearch
+{
+    /* background-color:burlywood; */
+    width: 50%;
+    height: 20%;
+    position: absolute;
+    left: 25%;
+    /* right: 25%; */
+    display: flex;
+    justify-content: space-evenly;
+}
+
+input
+{
+    height: 50px;
+    width: 75%;
+    border-radius: 30px;
+    padding: 20px;
+    margin-top: 40px;
+    margin-left: 40px;
+    font-size: 15px;
+    border: none;
+}
+
+input:hover
+{
+    background-color: rgba(255, 255, 255, 0.831);
+}
+
+#searchButton
+{
+    height: 50px;
+    width: 50px;
+    margin-top:40px;
+    margin-left: 20px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    cursor: pointer;
+}
+
+#searchButton:hover
+{
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.831);
+}
+
+#searchButton img
+{
+    height: 20px;
+    width: 20px;
+}
+
+#weatherupdate
+{
+    position: absolute;
+    left: 25%;
+    right: 25%;
+    top: 20%;
+    /* background-color: blue; */
+    height: 50%;
+
+}
+
+#weatherupdate img
+{
+    padding-left: 30%;
+    height: 60%;
+    width: 70%;
+}
+
+#weatherupdate h1
+{
+    padding-top: 1px;
+    font-size: 55px;
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+}
+
+#weatherupdate h2
+{
+    font-size: 35px;
+    text-align: center;
+    margin-top: 2px;
+    color: white;
+}
+
+#bottom
+{
+    height: 30%;
+    width: 50%;
+    /* background-color: rebeccapurple; */
+    position: absolute;
+    left: 25%;
+    right: 25%;
+    top: 70%;
+    display: flex;
+    
+}
+
+#left
+{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+#left img
+{
+    height: 25%;
+    width: 25%;
+
+}
+
+#left #hum
+{
+
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+}
+
+#left #humidity
+{
+    margin-top: 8px;
+    font-size: 12px;
+    font-weight: 500;
+    color: white;
+}
+
+#right
+{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+#right img
+{
+    height: 25%;
+    width: 25%;
+
+}
+
+#right #wind
+{
+
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+
+}
+
+#right #speed
+{
+
+    margin-top: 8px;
+    font-size: 12px;
+    font-weight: 500;
+    color: white;
+}
+
+.error
+{
+    position: absolute;
+    top:18%;
+    left:43%;
+    display: none;
+}
+
+.error p
+{
+    font-size: 20px;
+    color: white;
+}
+
+
